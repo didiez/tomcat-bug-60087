@@ -7,5 +7,5 @@ https://bz.apache.org/bugzilla/show_bug.cgi?id=60087#c3
 
 Resource url returned by JarWarResource.getURL() (notice the double `"!/!/"`) :
 ```
-"jar:war:file:/C:/Users/diego/Documents/NetBeansProjects/tomcat-resource-test/main-app/target/main-app-0.0.1-SNAPSHOT.jar*/BOOT-INF/lib/template-dep-0.0.1-SNAPSHOT.jar!/!/META-INF/resources/template.xhtml"
+"jar:war:file:{project-path}/target/main-app-0.0.1-SNAPSHOT.jar*/BOOT-INF/lib/template-dep-0.0.1-SNAPSHOT.jar!/!/META-INF/resources/template.xhtml"
 ```
